@@ -1,0 +1,25 @@
+{% extends "_post.html" %}
+{%hyde
+    title: "Reborn with old Hyde"
+    created: 2012-07-13 23:15:00
+%}
+{% block article %}
+Now this site is static. I used to love [Django][1], building everything upon it. Indeed, Django has a very rapid development process, support many plug-ins and great database access and most importantly, I still love Django. But building a blog using Django is just an overkill.
+
+I mean, blog does have data, posts, and even more, authors, tags, as some crazy tutorials suggest. But essentially it is a content-focus static site; it does not need much of interaction and dynamic database access. It has been long time that I have this urge to convert my blog into a static site. Now I finally did it.
+
+This blog builds upon static website generator [Hyde][2], old version with Django template language. Call me old fashion but I would not mind playing with Django a little more before finally moving to Jinja, the new template engine supported by [new Hyde][3].
+
+So far so good. Finally you don't have to create database models, views, urls handlers just to create a place so that you could write down some meaningless thoughts. Also, for now, markdown beats the [rtf editor][4] I use for its simplicity and letting me blog in vim.
+
+Now the site is using the default theme and template. My next step would be first converting css files into sass; I am not sure sass is better than less, but it just got me with its ["css with attitude"][5]. Then from that, I grow my theme if possible.
+
+I will still use Django for other web apps, but blog? Have some hyde!
+
+[1]: http://http://djangoproject.com/ "Django site"
+[2]: https://github.com/lakshmivyas/hyde "Hyde"
+[3]: https://github.com/hyde/hyde "new Hyde"
+[4]: http://lazutkin.com/blog/2011/mar/13/using-dojo-rich-editor-djangos-admin/ "dojo and django"
+[5]: http://sass-lang.com "sass"
+
+{% endblock %}
