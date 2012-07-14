@@ -6,3 +6,8 @@ def gen():
 
 def test():
   local("python ../hyde/hyde.py -w -d ../gen_simple")
+
+def commithub(txt):
+  local("git add .")
+  local('git commit -m "%s"' % txt)
+  local('git push origin master')
