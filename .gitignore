@@ -1,0 +1,8 @@
+# mac specific
+.DS_Store
+
+# py
+*.py[cod]
+
+# site log
+site.log
