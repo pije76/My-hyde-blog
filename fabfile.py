@@ -5,6 +5,7 @@ def gen():
   local("python ../hyde/hyde.py -g -d ../gen_simple")
 
 def test():
+  gen()
   local("python ../hyde/hyde.py -w -d ../gen_simple")
 
 def commithub(txt):
