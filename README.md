@@ -1,7 +1,7 @@
 ##My static blog site##
 
 This is my static blog site, built using [hyde](https://github.com/lakshmivyas/hyde). 
-Note I use the old Hyde because I like Django and the new version of Hyde is based on Jinja.
+Note I use the old Hyde because I prefer Django template language but the new version of Hyde is based on Jinja.
 
 Feel free to fork and create your own blog, but please do not modify my copy:)
 
