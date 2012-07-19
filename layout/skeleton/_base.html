@@ -11,9 +11,12 @@
     <link href="{{site.url}}/blog/atom.xml" rel="alternate" title="{{site.name}}" type="application/atom+xml"/>
     {% endblock %}
     {% block css %}
+	<link rel="shortcut icon" href="{{site.url}}/media/ico/favicon.ico">
     <link rel="stylesheet" href="{{site.url}}/media/css/base.css" type="text/css" media="screen" charset="utf-8">
+	<link href="{{site.url}}/media/css/all-hallows-eve.css" rel="stylesheet" type="text/css">
     {% block extra_css %}{% endblock %}{% endblock %}{% block js %}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	<script src="{{site.url}}/media/js/rainbow-custom.min.js"></script>
     {% block extra_js %}{% endblock %}{% endblock %}
 </head>
 <body>

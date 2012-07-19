@@ -8,6 +8,8 @@ body {
     color: black;
     font-size: 1em;
     line-height: 1.5em;
+	max-width: 720px;
+	margin: 0 auto;
 }
 
 h1 {font-size: 4em; line-height: 72px; font-weight: bold;}
@@ -18,7 +20,7 @@ h5 {font-size: 1em; line-height: 2em; font-weight: bold;}
 h6 {font-size: 1em; line-height: 2em; font-weight: normal;}
 
 p {
-	padding-top:1.8em;
+	padding-top:1.7em;
 }
 
 a {
@@ -129,4 +131,8 @@ div.article {
 .title a:visited {
     color: #111;
     font-style: normal;
+}
+
+pre {
+	border-radius:15px;
 }
