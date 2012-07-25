@@ -12,8 +12,8 @@ BACKUPS_DIR = here('backups')
 BACKUP = False
 
 SITE_ROOT = "/"
-SITE_WWW_URL = "http://www.yoursite.com"
-SITE_NAME = "Cyberpunk"
+SITE_WWW_URL = "http://www.ynotserious.com"
+SITE_NAME = "Why so serious?"
 
 #Url Configuration
 GENERATE_ABSOLUTE_FS_URLS = False
