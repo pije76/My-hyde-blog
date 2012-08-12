@@ -3,7 +3,7 @@
 {% block content %}
 {% comment %}{% block breadcrumbs %}{% include "skeleton/_breadcrumbs.html"%}{% endblock %}{% endcomment %}
 {% block nav %}
-<div id="nav">
+<nav>
     <ul>
         <a href="{{site.listing_url}}">
         <li{% ifequal page.module site.module %} class="home-selected" {% endifequal %}>
@@ -18,8 +18,15 @@
         </a>
         {% endfor %}
     </ul>
-</div>
+</nav>
 {% endblock %}
-{% block content_header %}{% ifnotequal page.module site.module %}<div class="article title"><h3>{{ page.title }}</h3></div>{% endifnotequal %}{% endblock %}
-{% block content_body %}{% endblock %}
+{% block content_header %}
+	{% ifnotequal page.module site.module %}
+		<div class="article title">
+			<h3>{{ page.title }}</h3>
+		</div>
+	{% endifnotequal %}
+{% endblock %}
+{% block content_body %}
+{% endblock %}
 {% endblock %}

@@ -13,8 +13,8 @@ body {
     color: black;
     font-size: 1em;
     line-height: 1.5em;
-	max-width: 720px;
-	margin: 0 auto;
+		max-width: 720px;
+		margin: 0 auto;
 }
 
 img {
@@ -56,28 +56,28 @@ li {
     list-style-position: inside;
 }
 
-#header {
+header {
     height: 10em;
 }
-#header h1 {
+header h1 {
     margin: 0;
     padding: 1em 0 0 0.5em;
     line-height: 0;
     font-size: 4em;
     color: black;
 }
-#header h1:hover {
+header h1:hover {
 	color: #cc0000;
 }
-#header a:visited {
+header a:visited {
     font-style: normal;
 }
 
-#nav ul {
+nav ul {
     padding: 0;
     margin: 0;
 }
-#nav ul li {
+nav ul li {
     padding: 0;
     margin: 0;
     display: inline;
@@ -87,13 +87,17 @@ li {
     background: black;
     color: white;
 }
-#nav ul li:hover {
+nav ul li:hover {
     border-bottom: 5px solid #cc0000;
 }
-#nav a {
+nav a {
     color: white;
     border: none;
     font-style: normal;
+}
+
+nav a:hover {
+	border-bottom:none;
 }
 
 #content-header {
@@ -111,7 +115,7 @@ ul#archives li {
     font-size: 1.5em;
 }
 
-#footer {
+footer {
     text-align: center;
     font-size: 0.6em;
 }
@@ -135,6 +139,7 @@ div.article {
     float: right;
 }
 .title a:hover {
+		color: #cc0000;
     border: none;
 }
 .title a:visited {
